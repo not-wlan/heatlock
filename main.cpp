@@ -168,6 +168,5 @@ int main(int argc, char** argv) {
 		std::fprintf(stderr, "[!] Couldn't find encrypted payload in the flat file!\n");
 		return EXIT_FAILURE;
 	}
-	getchar();
 	return EXIT_SUCCESS;
 }
